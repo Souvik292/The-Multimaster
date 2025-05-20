@@ -21,7 +21,7 @@ app.use(cors());
 app.use(cookie())
 
 
-mongoose.connect("mongodb+srv://iamsouvikbhowmick:<Souvik@29>@cluster0.d1jfxfr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+mongoose.connect("mongodb+srv://iamsouvikbhowmick:Souvik@29@cluster0.d1jfxfr.mongodb.net/");
 const userschema =mongoose.Schema;
 const dataschema=new userschema({
     email:String,
