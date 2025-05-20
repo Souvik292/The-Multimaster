@@ -27,7 +27,7 @@ const dataschema=new userschema({
     email:String,
     password:String
 });
-const collection1 =mongoose.model("student",dataschema);
+const collection1 =mongoose.model("students",dataschema);
 
 
 app.use("/ai",airoutes);
